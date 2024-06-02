@@ -18,8 +18,8 @@ def add_transparent_border(input_image_path, output_image_path, border_size):
 
 
 def main():
-    input_image_path = "icon.png"
-    output_image_path = "icon2.png"
+    input_image_path = "../media/icon_normal.png"
+    output_image_path = "../media/icon_smaller.png"
     border_size = 200 #pixels
     add_transparent_border(input_image_path, output_image_path, border_size)
     print("Images generated successfully!")

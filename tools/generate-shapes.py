@@ -29,7 +29,7 @@ def generate_triangle(circle_radius, circle_color):
 
 def main():
     # Open the circle image and get its properties
-    circle_img = Image.open('circle.png')
+    circle_img = Image.open('../media/icon_normal.png')
     circle_width, circle_height = circle_img.size
     # Calculate the center coordinates of the circle
     center_x = circle_width // 2
@@ -42,8 +42,8 @@ def main():
     square_img = generate_square(circle_radius, circle_color)
     triangle_img = generate_triangle(circle_radius, circle_color)
     # Save the generated images
-    square_img.save('square.png')
-    triangle_img.save('triangle.png')
+    square_img.save('../media/square.png')
+    triangle_img.save('../media/triangle.png')
     print("Images generated successfully!")
 
 if __name__ == "__main__":
