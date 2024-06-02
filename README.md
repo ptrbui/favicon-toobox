@@ -1,7 +1,7 @@
 # Favicon Adjustment Tools
 
 ## About
-This project provides a set of Python scripts designed to help with favicon customization and generation. The tools included in this project allow you to:
+I created this project to provide a set of Python scripts designed to help with favicon customization and generation. The tools included in this project allow you to:
 
 1. **Add Transparent Borders**: Enhance the appearance of favicon icons by adding transparent borders around them.
 2. **Change Non-Transparent Pixel Colors**: Easily change the color of non-transparent pixels in PNG images, which is useful for quickly adjusting icon colors.
