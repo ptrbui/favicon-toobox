@@ -13,6 +13,12 @@ These scripts utilize the Python Imaging Library (PIL) to perform image manipula
 ### `add-transparent-border.py`
 This script adds a transparent border around an original input image, which is useful for displaying a favicon icon smaller on a browser tab.
 
+<p align="center">
+  <img src="media/examples/example1.png" alt="">
+  <br>
+  <em>Example of an icon shrunken using the add-transparent-border script</em>
+</p>
+
 #### Usage
 1. Place your input image (e.g., `icon.png`) in the same directory as the script.
 2. Set the desired border size in pixels (default is 200 pixels).
@@ -22,6 +28,12 @@ This script adds a transparent border around an original input image, which is u
 ## Changing The Color of a PNG Favicon
 ### `change-non-transparent-pixels.py`
 This script changes non-transparent pixels in a PNG image to a specified color.
+
+<p align="center">
+  <img src="media/examples/example2.png" alt="">
+  <br>
+  <em>Example of a recolored icon using the change-non-transparent-pixels script</em>
+</p>
 
 #### Usage
 1. Place your input image (e.g., `icon3.png`) in the same directory as the script.
@@ -35,6 +47,12 @@ This script changes non-transparent pixels in a PNG image to a specified color.
 ## Basic Favicon Generation
 ### `generate-shapes.py`
 This script generates square and triangle images based on an input circle image, using the circle's radius and color.
+
+<p align="center">
+  <img src="media/examples/example3.png" alt="">
+  <br>
+  <em>Example of generated favicons using the generate-shapes script</em>
+</p>
 
 #### Usage
 1. Place your input circle image (e.g., `circle.png`) in the same directory as the script.
