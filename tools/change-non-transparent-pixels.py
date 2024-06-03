@@ -25,9 +25,9 @@ def change_non_transparent_pixels(image_path, output_path, color):
     img.save(output_path)
 
 def main():
-    input_image_path = "../media/substack_orange.png"
-    output_image_path = "../media/substack_green.png"
-    color_to_set = (0, 255, 0, 100)  # Green color
+    input_image_path = "../social-icons/email.png"
+    output_image_path = "../social-icons/recolored/email.png"
+    color_to_set = (119, 119, 119)
     change_non_transparent_pixels(input_image_path, output_image_path, color_to_set)
     print("Images generated successfully!")
 
